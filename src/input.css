@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#main-bg {
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: top -62vh left -22vw, bottom -79.5vh right -16.5vw;
+  background-repeat: no-repeat;
+}
+
+/* .mobile {
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: top -50vh left 0vw, bottom 0vh right 0vw;
+  background-repeat: no-repeat;
+} */
+@media screen and (max-width: 600px) {
+  #main-bg {
+    background-image: url(../images/bg-pattern-top.svg),
+      url(../images/bg-pattern-bottom.svg);
+    background-position: top -70vh left -200vw, bottom -65vh right -208vw;
+    background-repeat: no-repeat;
+  }
+}
