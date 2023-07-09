@@ -9,12 +9,6 @@
   background-repeat: no-repeat;
 }
 
-/* .mobile {
-  background-image: url(../images/bg-pattern-top.svg),
-    url(../images/bg-pattern-bottom.svg);
-  background-position: top -50vh left 0vw, bottom 0vh right 0vw;
-  background-repeat: no-repeat;
-} */
 @media screen and (max-width: 600px) {
   #main-bg {
     background-image: url(../images/bg-pattern-top.svg),
